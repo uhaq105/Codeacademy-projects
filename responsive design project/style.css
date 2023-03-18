@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 120px 60px;
+}
+
+/* Section 1 */
+
+.nav-section {
+  padding: 40px 60px;
+  background-color: blueviolet;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  letter-spacing: 1.25px;
+  color: yellow;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Section 2 */
+
+.section-two {
+  background-color: #da77f2;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.75px;
+  font-weight: bold;
+}
+
+div p {
+  font-size: 1.5rem;
+  letter-spacing: 1.2px;
+  max-width: 720px;
+  line-height: 22.2px;
+}
+
+div button {
+  border-radius: 9px;
+  padding: 8px 16px;
+}
+
+div button:hover {
+  background-color: #da77f2;
+  color: white;
+}
+
+.club-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 10rem;
+}
+
+.club-img img {
+  height: 15rem;
+  border: 8px solid #5f3dc4;
+  border-radius: 9px;
+}
+
+/* Section 3 */
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #da77f2;
+}
+
+.section-three h1 {
+  letter-spacing: 0.75px;
+}
+
+.section-three span {
+  letter-spacing: 1.15px;
+}
+
+/* Section Four */
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  background-color: #da77f2;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.join-img {
+  max-width: 420px;
+}
+
+.join-img img {
+  height: 25rem;
+  border-radius: 9px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #5f3dc4;
+  color: white;
+  padding: 100px 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  gap: 5rem;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* Media Queries */
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  /* Section 2 */
+
+  html {
+    font-size: 45%;
+  }
+
+  .section-two {
+    padding: 80px 40px;
+  }
+
+  .club-img {
+    margin-top: 5rem;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .club-img img {
+    height: 10rem;
+  }
+
+  /* Section 3 */
+  .section-three {
+    padding: 80px 40px;
+  }
+
+  /* Section 4 */
+  .section-four {
+    padding: 80px 40px;
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+
+/* Medium screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Section 2 */
+  .section-two {
+    padding: 80px 80px;
+  }
+
+  .club-img {
+    margin-top: 5rem;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .club-img img {
+    height: 12rem;
+  }
+
+  /* Section 3 */
+  .section-three {
+    padding: 80px 80px;
+  }
+
+  /* Section 4 */
+  .section-four {
+    padding: 80px 80px;
+    flex-direction: column;
+  }
+}
